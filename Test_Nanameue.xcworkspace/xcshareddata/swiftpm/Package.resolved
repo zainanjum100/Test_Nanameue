@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "iqkeyboardmanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hackiftekhar/IQKeyboardManager",
+      "state" : {
+        "branch" : "master",
+        "revision" : "f0fad1d51f9710cbd0ac6d49121d8b7fddd5c7f6"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage",
+      "state" : {
+        "revision" : "c4b8660bb3ef543fe4bdcaac0db956b32dc5583f",
+        "version" : "5.13.0"
+      }
+    },
+    {
+      "identity" : "zainspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zainanjum100/zainspm",
+      "state" : {
+        "branch" : "master",
+        "revision" : "cd0b7fac9836f7beb335277ead833bb965993297"
+      }
+    }
+  ],
+  "version" : 2
+}
