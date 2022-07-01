@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -18,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IlZ-2A-raR" customClass="ThemeBoldLabel" customModule="Test_Nanameue" customModuleProvider="target">
-                                <rect key="frame" x="16" y="250" width="42" height="20.5"/>
+                                <rect key="frame" x="16" y="250" width="343" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -106,6 +107,7 @@
                             <constraint firstItem="jbl-dX-AlM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vWQ-qW-wkl"/>
                             <constraint firstItem="jbl-dX-AlM" firstAttribute="top" secondItem="onA-Qn-jo0" secondAttribute="bottom" constant="40" id="xjm-gI-g0G"/>
                             <constraint firstItem="IlZ-2A-raR" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xod-V7-5eN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IlZ-2A-raR" secondAttribute="trailing" constant="16" id="yjt-LE-AHL"/>
                             <constraint firstItem="onA-Qn-jo0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ytG-6i-94e"/>
                         </constraints>
                     </view>
