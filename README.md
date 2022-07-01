@@ -23,6 +23,19 @@
 - [x] Logout
 -    Logout confirmation.
 
+## Language
+- Swift
+
+## Design Pattern
+- MVVM with observer
+
+## Frameworks and libraries
+- UIKit
+- Firebase
+- IQKeyboardManager
+- SDWebImage
+- ZainSPM
+
 ## Requirements
 
 - iOS 14.0+
